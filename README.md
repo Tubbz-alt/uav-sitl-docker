@@ -17,7 +17,7 @@ docker run -it --privileged \
  -e DISPLAY=:0 \
  -p 14556:14556/udp \
  -p 8080:8080 \
- evans000/uav-sitluav-sim bash
+ evans000/uav-sitl bash
 ```
 
 ### Optional : Include Ardupilot to the container
