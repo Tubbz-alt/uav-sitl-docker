@@ -24,7 +24,7 @@ docker run -it --privileged \
 
 ### Spawn a new Docker Container
 ```
-docker exec -it container-id bash
+docker exec -it <container-id> bash
 ```
 
 ### Optional : Include Ardupilot to the container
